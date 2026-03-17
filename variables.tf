@@ -41,6 +41,6 @@ variable "instance_password" {
 }
 
 variable "public_ssh_key" {
-  type = string
+  type        = string
   description = "SSH public KEY full path."
 }
